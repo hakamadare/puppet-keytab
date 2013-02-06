@@ -8,4 +8,4 @@ description 'UNKNOWN'
 project_page 'http://github.com/huit/puppet-keytab'
 
 ## Add dependencies, if any:
-# dependency 'username/name', '>= 1.2.0'
+dependency 'puppetlabs/stdlib'

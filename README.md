@@ -12,6 +12,8 @@ This module provides a secure mechanism for deploying Kerberos principals into k
 
 * This module has been tested on RHEL 6 and Ubuntu 10 LTS; other similar distributions may or may not work.
 
+* This module requires the `puppetlabs-stdlib` module.
+
 * The puppetmaster MUST be able to run a remote `kadmin` command, authenticating only with its host principal.  The puppetmaster's host principal requires only a restricted subset of privileges (this syntax is taken from MIT Kerberos; `man kadmind` for more information):  
     A Disallows the addition of principals or policies in the database.  
     D Disallows the deletion of principals or policies in the database.  
